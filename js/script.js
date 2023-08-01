@@ -9,9 +9,7 @@ document.body.addEventListener("keydown", function (e) {
 
   let prev = display.value;
 
-  if (isNaN(n)) {
-    document.getElementById("display").value = prev;
-  } else if (
+  if (
     n === "0" ||
     n === "1" ||
     n === "2" ||
