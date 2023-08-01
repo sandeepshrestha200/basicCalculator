@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 98vh;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.main-body {
+    width: 28%;
+    margin: 0px auto;
+    border-radius: 12px;
+}
+
+.screen, .button-area {
+    width: 100%;
+    padding: 4%;
+}
+
+.button-area {
+    margin: 0 auto;
+}
+
+.display {
+    width: 90%;
+    font-size: 280%;
+    padding: 4px;
+    text-align: right;
+    border-radius: 10px;
+    border: none;
+}
+
+.display:focus {
+    outline: none;
+}
+
+.btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 6%;
+
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 2%;
+
+}
+

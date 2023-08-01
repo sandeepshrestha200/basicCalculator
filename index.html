@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/theme1.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="main-body">
+            <div class="screen">
+                <input type="text" class="display" id="display">
+            </div>
+
+            <div class="button-area">
+
+                <div class="btn-row">
+                    <p class="btn power-btn" onclick="press('ac')">AC</p>
+                    <p class="btn power-btn" onclick="press('bs')">BS</p>
+                    <p class="btn power-btn" onclick="press('pm')">+/-</p>
+                    <p class="btn op-btn" onclick="press('/')">/</p>
+                </div>
+
+                <div class="btn-row">
+                    <p class="btn num-btn" onclick="press(7)">7</p>
+                    <p class="btn num-btn" onclick="press(8)">8</p>
+                    <p class="btn num-btn" onclick="press(9)">9</p>
+                    <p class="btn op-btn" onclick="press('*')">x</p>
+                </div>
+
+                <div class="btn-row">
+                    <p class="btn num-btn" onclick="press(4)">4</p>
+                    <p class="btn num-btn" onclick="press(5)">5</p>
+                    <p class="btn num-btn" onclick="press(6)">6</p>
+                    <p class="btn op-btn" onclick="press('-')">-</p>
+                </div>
+
+                <div class="btn-row">
+                    <p class="btn num-btn" onclick="press(1)">1</p>
+                    <p class="btn num-btn" onclick="press(2)">2</p>
+                    <p class="btn num-btn" onclick="press(3)">3</p>
+                    <p class="btn op-btn" onclick="press('+')">+</p>
+                </div>
+
+                <div class="btn-row">
+                    <p class="btn num-btn" onclick="press(0)">0</p>
+                    <p class="btn num-btn" onclick="press('.')">.</p>
+                    <p class="btn op-btn" onclick="press('%')">%</p>
+                    <p class="btn power-btn" onclick="press('=')">=</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.main-body {
+    background-color: #30344e;
+}
+
+.btn.power-btn {
+    color: white;
+    background-color: #3434a6;
+
+}
+
+.btn.op-btn {
+    color: white;
+    background-color: #a0a0a0 ;
+    
+}
+
+.btn.num-btn {
+    color: white;
+    background-color: #101111;
+    
+}
